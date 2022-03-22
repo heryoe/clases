@@ -1,0 +1,325 @@
+                       body{
+                 background: url(mar2.jpg);
+            background-size: 200%;
+                           }
+
+                   /*------------*/
+                   /* Encabezado */
+                   /*------------*/
+                      .titu{width: 100%;
+                     height: 32px;
+                 margin-top: -8px;
+           background-color: blue;
+                  font-size: 25px;
+                      color: wheat;
+                           }
+
+                      .logo{
+                      width: 80px;
+                     border: 3px solid blue;    
+              border-radius: 30px;
+                 margin-top: -12px;
+                           }
+            
+                    .marque{
+                        margin-top: -20px;
+                      width: 10px;
+                     height: 10px;
+           background-color: red;
+              border-radius: 50px;
+        animation-direction: alternate; 
+             animation-name: caminar_marque;
+         animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0)
+                           }
+
+  @keyframes caminar_marque{
+                       100%{margin-left: 100%;}
+                           }
+
+
+
+                    /*----------*/
+                    /* Opciones */
+                    /*----------*/
+                     .somos{
+                   position: fixed;
+                      width: 40px;
+                     height: 25px;
+                       left: 40px;
+                        top: 70px;
+                      color: black;
+                font-weight: bold;
+                           }
+
+                    .somos1{
+                     border: 3px solid skyblue;
+                   position: fixed;
+                    padding: 10px;
+                 text-align: justify-all;
+           background-color: black;
+                      color: white;
+                font-weight: normal;
+                      width: 250px;
+                     height: 290px;
+              border-radius: 30px;
+                        top: 300px;
+                       left: -300px;
+        transition-property: left, top;
+        transition-duration: 2s, 2s;
+                           }
+
+                    .somos2{margin-top: 10px;}
+
+     .somos:hover > .somos1{left: 40px; top: 150px;}
+
+
+                    .ws img{
+                   position: fixed;
+                        top: 65px;
+                       left: 260px;
+                      width: 30px;
+              border-radius: 10px;
+                           }
+
+                      .beto{margin-top: 5px;}
+
+                       .ws1{
+                   position: fixed;
+                      width: 150px;
+                     height: 50px;
+                      color: white;
+           background-color: black;
+                     border: 3px solid skyblue;
+              border-radius: 40px;
+                 text-align: center;
+                       left: 120%;
+                        top: 500px;
+        transition-property: left, top;
+        transition-duration: 2s, 3s;
+                           }
+
+           .ws:hover > .ws1{left: 100px; top: 200px;}
+
+
+
+                     /*--------*/
+                     /* Frases */
+                     /*--------*/
+                   .galeria{
+                   position: fixed;
+                        top: 135px;
+                       left: 114px;
+                font-weight: bold;
+                           }
+
+                        .fc{
+                    display: grid;
+      grid-template-columns: repeat(15, 250px);
+            grid-column-gap: 25px;
+                     height: 204px;
+                      width: 274px;
+                 margin-top: 10px; 
+        transition-property: left, top;
+        transition-duration: 2s, 2s;
+                   overflow: auto;
+              border-radius: 50px;
+                           }
+
+                       .fc1{
+                     border: 3px solid blue;
+                      width: 250px;
+                     height: 180px;
+                     margin: 10px;
+              border-radius: 50px;
+                           }
+
+               
+
+                   /*------------*/
+                   /* Caminantes */
+                   /*------------*/
+                       .ari{
+                 margin-top: -20px;
+                      width: 20px;
+                     height: 20px;
+                 margin-top: 10px;
+                margin-left: -90px;
+                      color: yellow;
+              border-radius: 50px;
+        animation-direction: normal; 
+             animation-name: caminar_ari;
+         animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0)
+                           }
+
+     @keyframes caminar_ari{
+                       100%{margin-left: 120%;}
+                           }
+           
+                       .alg{
+                 margin-top: -20px;
+                      width: 20px;
+                     height: 20px;
+                 margin-top: 10px;
+                margin-left: 120%;
+                      color: red;
+                font-weight: bold;
+              border-radius: 50px;
+        animation-direction: normal; 
+             animation-name: caminar_alg;
+         animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0)
+                           }
+
+     @keyframes caminar_alg{
+                       100%{margin-left: -90px;}
+                           }
+
+                      .geo{
+                 margin-top: -20px;
+                      width: 20px;
+                     height: 20px;
+                 margin-top: 10px;
+                margin-left: -180px;
+                      color: white;
+              border-radius: 50px;
+        animation-direction: normal; 
+             animation-name: caminar_geo;
+         animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0)
+                           }
+
+     @keyframes caminar_geo{
+                        10%{margin-top: 10px;}
+                        30%{margin-top: 5px;}
+                        45%{margin-top: -20px;}
+                        85%{margin-top: 50px;}                     
+                       100%{margin-left: 120%;}
+                           }
+
+                       .tri{
+                      width: 20px;
+                     height: 20px;
+                 margin-top: 20px;
+                margin-left: 20px;
+                      color: blue;
+                font-weight: bold; 
+              border-radius: 50px;
+        animation-direction: normal; 
+             animation-name: caminar_tri;
+         animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0)
+                           }
+
+     @keyframes caminar_tri{
+                        25%{margin-top: -30px;margin-left: 50px;}
+                        50%{margin-top: 20px;margin-left: 80px;}
+                        75%{margin-top: 50px;margin-left: 50px;}
+                       100%{margin-top: 20px;margin-left: 20px;}
+                           }
+  
+                       .cal{
+                      width: 20px;
+                     height: 20px;
+                 margin-top: 0px;
+                margin-left: 240px;
+                      color: black;
+                font-weight: bold;
+              border-radius: 50px;
+        animation-direction: alternate; 
+             animation-name: caminar_cal;
+         animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0)
+                           }
+
+     @keyframes caminar_cal{
+                       100%{margin-top: -100px;}
+                           }
+
+
+
+                     footer{
+                   position: fixed;
+                        top: 550px;
+                       left: 130px;
+                      color: black;
+                font-weight: bold;
+                           }
+
+
+             
+              /*-----------------------*/
+              /* Ajuste a Dispositivos */
+              /*-----------------------*/
+         @media screen and (min-width: 710px) /*Celular Acostado y tabletas*/ 
+                           { 
+                      .logo{width: 90px;}
+                     .somos{left: 160px;top: 70px;font-size: 23px;}
+                    .ws img{top: 65px;left: 500px;width: 40px;}
+
+       .galeria{
+                      
+                       left: 300px;
+               top: 142px;
+                           }
+
+                        .fc{
+      grid-template-columns: repeat(15, 300px);
+           
+                     height: 254px;
+                      width: 324px;
+                        }
+
+                       .fc1{
+                    
+                      width: 300px;
+                     height: 230px;
+            
+                           }
+
+
+
+
+                           }
+
+
+       
+
+         @media screen and (min-width: 1100px) /*Lap y Escritorio*/
+                           {
+                       body{
+                 background: url(trailer.jpg);
+            background-size: 100%;
+                           } 
+
+                     .titu2{width: 180px;height: 100px;}
+                   .marque1{animation-duration: 5s;background-color: darkred;}
+                    .inicio{width: 600px;height: 300px;}
+                   .inicio1{border-radius: 130px;}
+                     .fecha{color: black;}
+                        .qs{color: white;background: red;font-size: 15px;}
+                        .ns{color: white;background: red;font-size: 15px;}
+                        .de{color: white;background: red;font-size: 15px;}
+                        .co{color: white;background: red;font-size: 15px;}
+                           }
+
+
+         @media screen and (min-width: 1700px) /*Pantallas*/
+                           {
+                     .titu2{width: 200px;height: 120px;}
+                   .marque1{animation-duration: 5s;background-color: darkred;}
+                    .inicio{width: 700px;height: 500px;}
+                   .inicio1{border-radius: 130px;}
+                     .fecha{color: black;}
+                        .qs{color: white;background: red;font-size: 15px;}
+                        .ns{color: white;background: red;font-size: 15px;}
+                        .de{color: white;background: red;font-size: 15px;}
+                        .co{color: white;background: red;font-size: 15px;}
+                           }    
